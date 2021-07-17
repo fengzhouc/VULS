@@ -6,7 +6,7 @@
 <struts>
     <constant name="struts.i18n.encoding" value="utf-8"></constant>
     <constant name="struts.multipart.maxSize" value="20971520"/>
-    <constant name="struts.devMode" value="true" />
+    <constant name="struts.devMode" value="false" />
 
     <package name="p_user" namespace="/" extends="struts-default">
         <action name="login_input" class="s.demo.UserAction" method="login_input">
