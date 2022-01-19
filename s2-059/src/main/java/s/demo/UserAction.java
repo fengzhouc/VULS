@@ -2,8 +2,14 @@ package s.demo;
 
 import com.opensymphony.xwork2.ActionSupport;
 
+//import org.apache.log4j.LogManager;
+//import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class UserAction extends ActionSupport {
     private static final long serialVersionUID = -1417237614181805435L;
+    private static final Logger logger = LogManager.getLogger(UserAction.class);
 
     private String name;
     private String password;
@@ -41,6 +47,7 @@ public class UserAction extends ActionSupport {
     public String login() {
         System.out.println("name->" + name);
         System.out.println("password->" + password);
+        logger.info(name);
 
         return SUCCESS;
     }

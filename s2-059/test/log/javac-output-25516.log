@@ -1,0 +1,6 @@
+[2021-12-22 17:50:34] [javac-output-25516] warning: [options] source value 7 is obsolete and will be removed in a future release
+[2021-12-22 17:50:34] [javac-output-25516] warning: [options] target value 7 is obsolete and will be removed in a future release
+[2021-12-22 17:50:34] [javac-output-25516] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+[2021-12-22 17:50:34] [javac-output-25516] D:\code\github\VULS\s2-059\src\main\java\s\demo\UserAction.java:36: error: unmappable character (0xA2) for encoding GBK
+[2021-12-22 17:50:34] [javac-output-25516]      * 璺宠浆鍒扮櫥褰曠晫闈?
+[2021-12-22 17:50:34] [javac-output-25516]                  ^

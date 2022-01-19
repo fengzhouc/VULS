@@ -1,0 +1,15 @@
+[2022-01-07 09:13:52] This is codeql database analyze test --format=CSV --output=./
+[2022-01-07 09:13:52] Log file was started late.
+[2022-01-07 09:13:52] [PROGRESS] database analyze> Running queries.
+[2022-01-07 09:13:52] Running plumbing command: codeql database run-queries --evaluator-log-level=1 --insecurely-execute-ml-model-checksums= --warnings=show --qlconfig-file=D:\code\github\VULS\s2-059\qlconfig.yml --no-rerun -- D:\code\github\VULS\s2-059\test
+[2022-01-07 09:13:52] Calling plumbing command: codeql resolve ram --format=json
+[2022-01-07 09:13:52] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx2017M",
+                        "--off-heap-ram=2017"
+                      ]
+[2022-01-07 09:13:53] Spawning plumbing command: execute queries -J-Xmx2017M --off-heap-ram=2017 --verbosity=progress --logdir=D:\code\github\VULS\s2-059\test\log --evaluator-log-level=1 --insecurely-execute-ml-model-checksums= --warnings=show --qlconfig-file=D:\code\github\VULS\s2-059\qlconfig.yml --no-rerun --output=D:\code\github\VULS\s2-059\test\results -- D:\code\github\VULS\s2-059\test\db-java codeql/java-queries
+[2022-01-07 09:13:56] [ERROR] Spawned process exited abnormally (code 2; tried to run: [D:\tools\tools\codeql\tools\win64\java\bin\java.exe, -Xmx2017M, "-Djava.library.path=D:\tools\tools\codeql\tools\win64\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\offic\python\Lib\site-packages\pyenv-win\bin;D:\offic\python\Lib\site-packages\pyenv-win\shims;D:\offic\python\Lib\site-packages\pyenv-win\shims\Scripts;D:\offic\bin\;D:\offic\jdk8\bin;D:\offic\jdk8\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\offic\apache-maven-3.6.3\bin;%python27%;D:\offic\putty\;D:\offic\Git\cmd;D:\offic\MinGW\mingw64\bin;D:\tools\tools\apktools;D:\tools\tools\cmder\;D:\tools\tools\platform-tools\;D:\software\Android\Sdk\build-tools\30.0.3;D:\tools\tools\phpStudy_64\phpstudy_pro\Extensions\MySQL5.7.26\bin;D:\offic\nodejs\;D:\tools\tools\nmap-7.91;D:\tools\tools\codeql;D:\offic\微信web开发者工具\dll;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Roaming\npm;D:\offic\Microsoft VS Code\bin;.", -cp, D:\tools\tools\codeql\tools\codeql.jar, com.semmle.cli2.CodeQL, env_argv, execute, queries, -J-Xmx2017M, _, _, _, _, _, _, _, --no-rerun, _, --, _, codeql/java-queries])
+[2022-01-07 09:13:56] Plumbing command codeql execute queries terminated with status 2.
+[2022-01-07 09:13:56] Plumbing command codeql database run-queries completed with status 2.
+[2022-01-07 09:13:56] Exiting with code 2

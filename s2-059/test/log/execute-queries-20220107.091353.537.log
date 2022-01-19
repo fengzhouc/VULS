@@ -1,0 +1,14 @@
+[2022-01-07 09:13:53] This is codeql execute queries -J-Xmx2017M --off-heap-ram=2017 --verbosity=progress --logdir=D:\code\github\VULS\s2-059\test\log --evaluator-log-level=1 --insecurely-execute-ml-model-checksums= --warnings=show --qlconfig-file=D:\code\github\VULS\s2-059\qlconfig.yml --no-rerun --output=D:\code\github\VULS\s2-059\test\results -- D:\code\github\VULS\s2-059\test\db-java codeql/java-queries
+[2022-01-07 09:13:53] Calling plumbing command: codeql resolve queries --format=json -- codeql/java-queries
+[2022-01-07 09:13:53] [SPAMMIER] resolve queries> Resolving queries in pack codeql/java-queries.
+[2022-01-07 09:13:56] Exception caught at top level: codeql/java-queries is not a .ql file, .qls file, a directory, or a query pack specification.
+                      com.semmle.cli2.resolve.ResolveQueriesCommand.executeJSON(ResolveQueriesCommand.java:193)
+                      com.semmle.cli2.resolve.ResolveQueriesCommand.executeJSON(ResolveQueriesCommand.java:70)
+                      com.semmle.cli2.picocli.SimpleJsonSubcommand.executeInsistingOnJSON(SimpleJsonSubcommand.java:117)
+                      com.semmle.cli2.picocli.PlumbingRunner.call(PlumbingRunner.java:54)
+                      com.semmle.cli2.picocli.SubcommandCommon.callPlumbingInProcess(SubcommandCommon.java:126)
+                      com.semmle.cli2.execute.ExecuteQueriesCommand.executeSubcommand(ExecuteQueriesCommand.java:202)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:500)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:205)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:214)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:98)

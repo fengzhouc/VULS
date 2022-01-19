@@ -9,8 +9,8 @@
 
 	<body>
 		<form action="login" method="post">
-			name:<input type="text" name="name" />
-			password:<input type="password" name="password" />
+			name:<input type="text" name="name" /><br>
+			password:<input type="password" name="password" /><br>
 
 			<input type="submit" value="登录" />
 		</form>
